@@ -1,0 +1,428 @@
+/*بسم الله الرحمن الرحيم */
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+                      /*navbar*/
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #370835;
+    color: #76184E;
+    position:fixed;
+    z-index: 99;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+    
+}
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 20px
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.navbar ul li .active{
+    color: aliceblue;
+}
+
+                    /*navbar ending*/
+                    /*start webFolk*/
+.web{
+    width:100%;
+    height: 600px;
+    text-align: center;
+    background-image: url(../Images/cover.png);
+    background-size: cover;
+    position: relative;
+}
+.web .folk{
+    padding-top: 80px;
+    color:aliceblue;
+        
+
+}
+
+.web .folk h2{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    
+}
+.web .folk p{
+    padding-top: 15px; 
+    letter-spacing: 10px
+}
+.web .dream {
+    padding: 25px 0;
+    
+}
+.web .dream p {
+    margin: 0;
+    font-size: 25px;
+    color: #fff;   
+}
+.web .workClient{
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+    line-height: 26px;
+    left: 38.62%;
+    background-color:#E80044;
+    color:aliceblue;
+    width: 300px;
+}
+.web .workClient:after{
+    content: "";
+    position: relative;
+    border-top: 20px solid #E80044;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    top: 25px;
+    left: 5px;
+    
+}
+.web .bollet{
+    margin-top: 5%;
+    margin-left: 49.5%;
+}
+.web .bollet span{
+    width: 10px;
+    height: 10px;
+    display:block;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin-bottom: 10px;   
+}
+.web .bollet span:hover{
+    background-color:#E80044 ;
+    cursor: pointer;
+}
+                  /*End webFolk*/
+
+                  /*start images*/
+.image{
+    width: 100%;
+}
+.image .img {
+    width: 25%;
+    height: 252px;
+    float: left;
+    background-image: url(../Images/image_1.jpg);
+    
+}
+.image .img .over{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0 ;
+}
+.image .img .over:hover{
+    opacity: 1;
+}
+
+.image .i_1 {background-image: url(../Images/image_1.jpg)}
+.image .i_2 {background-image: url(../Images/image_2.jpg)}
+.image .i_3 {background-image: url(../Images/image_3.jpg)}
+.image .i_4 {background-image: url(../Images/image_4.jpg)}
+.image .i_5 {background-image: url(../Images/image_5.jpg)}
+.image .i_6 {background-image: url(../Images/image_6.jpg)}
+.image .i_7 {background-image: url(../Images/image_7.jpg)}
+.image .i_8 {background-image: url(../Images/image_8.jpg)}
+.image .i_9 {background-image: url(../Images/image_9.jpg)}
+.image .i_10 {background-image: url(../Images/image_10.jpg)}
+.image .i_11{background-image: url(../Images/image_11.jpg)}
+.image .i_12{background-image: url(../Images/image_12.jpg)}
+
+.clearfix{clear: both}
+                         /* images ending*/
+
+
+.meet{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    background-color: azure;
+}
+.meet .head{
+    width: 100%;
+    height: 50px;
+    background-color: #E80044;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 20px
+    
+}
+.meet .head:after{
+    content: "";
+    border-top: 20px solid #E80044;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    left: -47px;
+    top: 54px;
+}
+
+.meet h2{
+    margin:0;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:#E80044;  
+    font-size: 35px;
+}
+.meet .meet_image{
+    display: inline-block;
+    margin-top: 20px;
+}
+.meet .meet_image h3{
+    color: #E80044;
+    font-size: 20px;
+    letter-spacing: 7px;
+    padding: 0;
+}
+.meet button{
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+                           /*meet ending*/
+                           /*Start work*/
+.work{
+    width: 100%;
+    height: auto;
+    background-image: url(../Images/Cover_2.jpg);
+    text-align: center;
+}
+.work .we{
+    display: inline-block;
+    width: 35%;
+    margin-top: 7%;
+    
+    
+}
+.work .we h3{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    color: aliceblue;
+}
+.work .we p {
+    font-size: 25px;
+    color: aliceblue;
+    
+}
+.work button{
+    width: 150px;
+    padding: 10px;
+    ;
+    font-size: 20px;
+    margin: 25px;
+    cursor: pointer;
+}
+.work .boll{padding-bottom: 25px}
+.work .boll span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin-left: 5px;
+}
+.work .boll span:hover{
+    background-color:#E80044 ;
+    cursor: pointer;
+}
+                           /*work ending*/
+                           /* start footer*/
+.footer{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    background-color:#370835;
+    line-height: 70px;
+    color: aliceblue
+    
+}
+                           /* end footer*/
+/********************** Contact Page *********************/
+
+.contact{
+    width: 100%;
+    height: 600px;
+    padding-top: 5%;
+    background-image: url(../Images/coverPage2.PNG);
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.contact h2{
+    font-size: 40px;
+    font-style: italic;
+}
+.contact p{
+    font-size: 25px;
+}
+.contact h3{
+    font-size: 30px;
+    color: #E80044;
+}
+.contact form{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    color: aliceblue;
+    
+    
+}
+.contact form input[type="text"] ,textarea{
+    width: 100%;
+    margin-bottom:5px;
+    display: block;
+    border: 0;
+    background: rgba(0,0,0,0.3);
+    color: aliceblue;
+    padding-left: 5px;
+    padding: 10px;
+    font-size: 20px;
+    
+    
+}
+.contact form input::placeholder{
+    color: aliceblue;
+}
+.contact form textarea{
+    width: 100%;
+    height: 120px;
+    background: rgba(0,0,0,0.2);
+}
+.contact form input[type=submit]{
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    color: aliceblue;
+    font-size: 15px;
+    float: right;
+    margin-top: 5px;
+    border: 0;
+}
+
+/******************** Folkeer ************************/
+.folkteer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.folkteer h2{
+    font-size: 30px;
+    color: #E80044;
+    
+}
+.folkteer p {
+    font-size: 20px;
+} 
+.folkteer ul {         /* noooooooooooooote */  
+    padding: 0;
+}
+.folkteer ul li{
+    display: inline;
+}
+
+
+/*************** book Online Page *********************/
+.contact .cover{
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255,255,255,.3)
+}
+.contact{height:555px}
+.contact .cover .img{
+    width: 45%;
+    float:left;
+    margin: 30px;
+}
+.contact .cover .img img{
+    width: 100%;
+    height: 80%;
+}
+.contact .cover .free{
+    width: 35%;
+    padding-top:25px ;
+    float:left;
+    margin: 30px;
+}
+.contact .cover .free button{
+    padding: 10px;
+    border:0;
+    font-size: 15px;
+    background-color: #000;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+.back{
+    width: 50px;
+    height: 30px;
+    margin: 0 0 10px 10px;
+    
+    position:fixed;
+    z-index: 999;
+    bottom: 0;
+}
+/* والحمدلله */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
